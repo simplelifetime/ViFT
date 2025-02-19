@@ -1,4 +1,4 @@
-# DAWN-ICL: Do we Really Need Visual Instructions? Towards Visual Instruction-Free Fine-tuning for Large Vision-Language Models
+# ViFT: Do we Really Need Visual Instructions? Towards Visual Instruction-Free Fine-tuning for Large Vision-Language Models
 
 ## 😀 Overview
 
