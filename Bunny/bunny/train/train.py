@@ -190,12 +190,8 @@ def train():
     compute_dtype = (torch.float16 if training_args.fp16 else (torch.bfloat16 if training_args.bf16 else torch.float32))
     
     print(data_args.data_path)
-    if '/nas/data/zkliu/checkpoints-sft-bunny/' in training_args.output_dir:
-        exp_name = training_args.output_dir.split('/nas/data/zkliu/checkpoints-sft-bunny/')[1]
-    elif '/nas/data/zkliu/checkpoints-pretrain-bunny' in training_args.output_dir:
-        exp_name = training_args.output_dir.split('/nas/data/zkliu/checkpoints-pretrain-bunny')[1]
         
-    log_dir = '/home/zkliu/Bunny/logs/'
+    log_dir = './logs/'
     import json
     json.dump(data_args.data_path, open(log_dir + exp_name , 'w'))
     print("writing already!")

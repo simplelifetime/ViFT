@@ -33,8 +33,8 @@ class Qwen2VL():
             args.model_path, torch_dtype="auto", device_map="auto"
         )
         
-        min_pixels = 256 * 28 * 28
-        max_pixels = 256 * 28 * 28
+        min_pixels = 512 * 512
+        max_pixels = 512 * 512
 
         self.processor = AutoProcessor.from_pretrained(args.model_path,min_pixels=min_pixels, max_pixels=max_pixels)
         

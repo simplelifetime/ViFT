@@ -7,8 +7,7 @@ from utils import *
 
 # OpenAI
 import openai
-openai.api_base = 'https://open.xiaojingai.com/v1'
-openai.api_key = 'sk-QqeaDJ148kH7R5s2dBT1W5nCHu9PGXAKl8vD3VBYiBe5j45d'
+
 
 from prompts import demo_prompt_extract
 from multiprocessing import Pool, Manager, cpu_count

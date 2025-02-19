@@ -3,8 +3,6 @@ import json
 import os
 
 import openai
-openai.api_base = 'https://open.xiaojingai.com/v1'
-openai.api_key = 'sk-KJhxTaZUuCyi92U1I4ZOOpK173c94Qlbs9uGvc7BdCEro9wr'
 import time
 
 NUM_SECONDS_TO_SLEEP = 0.5

@@ -11,10 +11,6 @@ from utilities import *
 
 # OpenAI
 import openai
-openai.api_base = 'https://open.xiaojingai.com/v1'
-# openai.api_key = 'sk-KJhxTaZUuCyi92U1I4ZOOpK173c94Qlbs9uGvc7BdCEro9wr'
-openai.api_key = 'sk-QqeaDJ148kH7R5s2dBT1W5nCHu9PGXAKl8vD3VBYiBe5j45d'
-# print(openai.api_key)
 
 # load demo prompt
 from prompts.ext_ans import demo_prompt
