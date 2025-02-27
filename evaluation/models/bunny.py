@@ -9,7 +9,7 @@ from bunny.conversation import conv_templates, SeparatorStyle
 from bunny.model.builder import load_pretrained_model
 from bunny.util.utils import disable_torch_init
 from bunny.util.mm_utils import tokenizer_image_token, get_model_name_from_path, process_images
-from bunny.eval.llm_steer_bak import Steer
+from llm_steer_bak import Steer
 import PIL
 
 

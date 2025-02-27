@@ -163,7 +163,7 @@ class Steer:
     def add(
         self,
         layer_list: list,
-        coeff: list,
+        coeff: float,
         inputs: dict,
         try_keep_nr: int = None,
         exclude_bos_token: bool = False,
@@ -213,7 +213,7 @@ class Steer:
                 SteerElement(
                     text="",
                     tensor=layer_tensors[layer_idx],
-                    coeff=coeff[layer_idx],
+                    coeff=coeff,
                     try_keep_nr=try_keep_nr,
                     exclude_bos_token=exclude_bos_token,
                     steering_method=steering_method,

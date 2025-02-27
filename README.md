@@ -24,11 +24,23 @@
 
 ### Data Preparation and Training Setting
 
-Coming soon
+We prepare all the training datasets here:
+
+- first_stage_captions.json contains 1m web captions sampled from laion, which is used for first-stage training(or pretraining, which can be skipped with compromised performance)
+
+- second_stage_captions.json contains 1.7M high-quality captions collected or synthesized via Qwen2-VL-72B. We collect image from different data source, encompassing a broad range of visual domain and visual tasks.
+
+- text_data_magpie.json and text_data_qwen_distill.json contain text-only data distilled from Qwen2.5-72B for inheriting and enhancing task-solving ability from LLM. They are mixed with second_stage_captions for second-stage training.
+
+
+
 
 ### Evaluation
 
 Coming soon
+
+
+We are still working on orangizing the remaining codes.
 
 ## 🌟 Results
 
