@@ -143,7 +143,7 @@ if __name__ == '__main__':
     # tqdm, enumerate results
     for _, pid in enumerate(tqdm(test_pids)):
         d = dataset["testmini"][pid]
-        image = f"/home/zkliu/MathVerse/data/mv_images/{d['id']}.jpg"
+        image = f"image_path"
         question = d['question']
         if '<image2>' not in question:
             question = question.replace('<image1>', "")

@@ -134,7 +134,7 @@ if __name__ == '__main__':
     # tqdm, enumerate results
     for _, pid in enumerate(tqdm(test_pids)):
         d = dataset["testmini"][pid]
-        image = f"/home/zkliu/MathVerse/data/images/{d['sample_index']}.png"
+        image = f"image_path"
         query = d['query_cot']
         results = d.copy()
         del results['image']
